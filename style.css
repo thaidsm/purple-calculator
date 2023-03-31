@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.parent{
+  position: relative;
+}
+.child{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+body{
+  padding-top: 10px;
+  margin: 0 auto;
+  border: 10px solid rgb(223, 205, 219);
+  border-radius:10px;
+  background-color:#7a6b7a;
+  border-image:url("./132d0b11f96dcffaa700966900312a52.jpg") 250 round;
+  width: 45%;
+  height:70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#a37997(275 1% 94%)
+}
+
+input{
+  color:#241124;
+  padding:17px;
+  outline:none;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 35%;
+}
+
+.maincolor{
+  background-color: #f0e1f0;
+}
+
+.num{
+  width: 64px;
+  height: 67px;
+}
+
+.text{
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1{
+  width: 24px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom:12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main{
+  display: inline-block;
+}
+
+.blue{
+  background-color:#502d50;
+}
+
+.pin{
+  background-color:#502d50;
+}
+
+.gre{
+  background-color:#502d50;
+}
+
+.pur{
+  background-color:#502d50;
+}
+
+.ora{
+  background-color:#502d50;
+}
